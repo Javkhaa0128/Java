@@ -6,7 +6,7 @@ public class aaaClassNotes {
 07/27/2020
 Topics: ArrayList Continue
 
-class starts at: 7:10 pm
+
 
 Package name: day35_ArrayList
 
@@ -83,10 +83,6 @@ ArrayList methods:
                         NOT THE INDEX
 
                         returns boolean,
-
-
-
-
 
 
 

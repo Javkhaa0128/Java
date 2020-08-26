@@ -45,7 +45,7 @@ Wrapper class: Byte,  Short,   Integer, Long,  Character, Boolean, Double,   Flo
 				implicitly done
 
 	unboxing: converting wrapper class values to primitive
-			implicitly done
+			  implicitly done
 
 
 Integer, Double, Character, Boolean
@@ -54,11 +54,11 @@ Integer, Double, Character, Boolean
 		"123" ==>123
 
 	methods:
-		parse methods: converts string of text to primitive vlaue
+		parse methods: converts string of text to primitive value
 						not case sensitive
 
 		valueOf methods: converts string of text to wrapper class value
-					not case sensitive
+					  not case sensitive
 
 
 
@@ -84,7 +84,7 @@ methods:
 	get(index): gets the element from arraylist
 
 
-	size(): rteurns the total number of elements
+	size(): returns the total number of elements
 
 		last index: size() -1;
 

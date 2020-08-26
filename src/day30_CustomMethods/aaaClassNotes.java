@@ -50,7 +50,7 @@ methods: function. grouping code fragments
 return methods: return-type is not void.
 				MUST return a value
 
-return statement: exits the method, can also return a vlaue from method
+return statement: exits the method, can also return a value from method
 
 
 

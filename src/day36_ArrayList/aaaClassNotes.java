@@ -6,7 +6,7 @@ public class aaaClassNotes {
 07/28/2020
 Topics: ArrayList Continue
 
-class starts at: 7:10 pm
+
 
 Package name: day36_ArrayList
 
@@ -45,12 +45,12 @@ Collections methods:
 
 		Collections.swap(ArrayList, index1, index2): swaps the elements of the given indexes
 
-		frequency(ArrayList, Element): returns the frequency of the element from the arraylist
+		Collections.frequency(ArrayList, Element): returns the frequency of the element from the arraylist
 
 
 
 Methods short quiz due by 8:35 pm
-under today's module
+
 
 
 

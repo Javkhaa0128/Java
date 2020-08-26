@@ -50,7 +50,7 @@ public class Lambda_Expression {
         ArrayList<Integer>  nums = new ArrayList<>();
         nums.addAll(Arrays.asList(1,1,1,2,2,2,3,3,4,5,6,7,8,8,9));
 
-        nums.removeIf( p -> Collections.frequency( nums, p ) !=1 );
+        nums.removeIf( p -> Collections.frequency( nums, p ) != 1 );
 
         System.out.println(nums);
 

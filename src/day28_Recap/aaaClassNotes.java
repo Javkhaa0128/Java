@@ -43,12 +43,6 @@ warmup tasks:
 
 
 
-
-canvas -> java -> module - day28 -> array's short quiz
-    due by 12:20
-
-
-
 afternoon:
     Multi-dimensional array
     nested loops
@@ -65,7 +59,7 @@ single dimensional array:
 
 multi-Dimensional arrays: contains multiple arrays
 
-        each array and each elemnt has index number
+        each array and each element has index number
 
         n dimensional array contains (n-1) dimensional array
 

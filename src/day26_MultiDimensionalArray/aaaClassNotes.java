@@ -17,7 +17,7 @@ warmup tasks:
                 output:
                     arr2: {15, 12, 11, 10, 9, 8, 5}
 
-                NOTE: at the end, you must have have an array that contains the desending order of the original array
+                NOTE: at the end, you must have have an array that contains the descending order of the original array
 
 
     2. write a program that can return the number of appearances of “java” and “python” anywhere in the sentence

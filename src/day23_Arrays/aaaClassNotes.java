@@ -60,7 +60,7 @@ variable:
       //  String friends = "Cybertek", "Muhtar", "Nadire"
 
 
-Array variable:  a vraible can have multiple data
+Array variable:  a variable can have multiple data
 
                 size is fixed
 

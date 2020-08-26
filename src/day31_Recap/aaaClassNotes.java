@@ -83,7 +83,7 @@ Reveiw:
 
 
 	problem solving:
-				1. watch tthre recordings of warmup tasks
+				1. watch the recordings of warm-up tasks
 
 				2. Office Hour
 

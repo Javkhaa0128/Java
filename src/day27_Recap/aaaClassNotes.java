@@ -13,7 +13,7 @@ package name: day27_recap
 ARRAY"S SIZE IS FIXED
 
 
-single dimensional: a variable that contains elemnts (Collection of elements)
+single dimensional: a variable that contains elements (Collection of elements)
             each element has index
 
     declare:
@@ -45,11 +45,11 @@ for each loop: WE MUST HAVE A DATA STRUCTURE IN ORDER TO USE
               }
 
           when to use?
-            when we dont need to provide indexes
+            when we don't need to provide indexes
 
 
 
-mult-dimensional array: a variable that contains arrays
+multi-dimensional array: a variable that contains arrays
 
 
         Arrays.deepToString()

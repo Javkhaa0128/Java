@@ -8,7 +8,7 @@ public class Util {
 
     // import Library.Util;
 
-    public static void removeDup(String str) {   //"abab"
+    public static String removeDup(String str) {   //"abab"
         String nonDup = "";  //"ab"
 
         for (String each : str.split("")) {
@@ -16,7 +16,7 @@ public class Util {
                 nonDup += each;
             }
         }
-        System.out.println(nonDup);
+        return nonDup;
     }
     // removes duuplicates and returns the value string
 

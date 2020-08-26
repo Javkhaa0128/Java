@@ -50,7 +50,7 @@ Arrays Utility:
 
            Arrays.sort(arr): sorts the array in ascending order
 
-           Arrays.equals(arr1, arr2): retunrs boolean
+           Arrays.equals(arr1, arr2): returns boolean
 
 
 String methods:
@@ -62,7 +62,7 @@ String methods:
             str.toCharArray() ==>  ['A', 'B', 'C', 'D', 'E']
 
 
-        split(value): retunrs String Array, splits the string by given valie
+        split(value): returns String Array, splits the string by given valie
 
             String sentence = "Java is cool"
 
@@ -92,7 +92,7 @@ for each loop: a loop that's already iterated.  starting from index 0 till the e
 
                 }
 
-                    each: represents every single elemnts in collection
+                    each: represents every single elements in collection
                             IS NOT INDEX NUMBER
 
 

@@ -1,4 +1,7 @@
 package repl;
+import com.sun.crypto.provider.PBEWithMD5AndDESCipher;
+import day04_Variables.CarInfo;
+
 import java.util.*;
 /*
 Warmup tasks:
@@ -18,36 +21,23 @@ Warmup tasks:
 
 public class it {
     public static void main(String[] args) {
+/*
+        2. create a class called HumanResources
+                declare 5 variables of Employee as static
+        use static block to:
+        1. initialize those static variables
+        2. set all the info of the Employees
 
-        int[] nums = {1, 1, 2, 3, 4, 3, 4};
-
-
-        for(int each : nums){
-            int count = 0;
-            for(int n : nums){
-                if(each == n){
-                    count++;
-                }
-            }
-            if(count == 1){
-                System.out.println(each);
-
-                // This is a practice Come on
-            }
-        }
+ */
 
 
 
 
 
+    }
+}
 
 
 
 
 
-
-
-
-
-
-    }}

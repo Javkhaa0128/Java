@@ -34,9 +34,6 @@ warmup tasks:
 			MUST use for each loop
 
 
-
-come back: 2:10 pm
-
 decimal formatting:
 
 		20/3.0  ==> 6.66666...   = 6.67
