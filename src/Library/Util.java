@@ -476,6 +476,15 @@ public class Util {
     // combines two array and returns it
 
 
+    public static void sleep(double seconds){
+        try {
+            Thread.sleep((long)(seconds * 1000));
+        }catch (InterruptedException e){
+
+        }
+    }
+    // pauses the current execution thread to sleep for given seconds
+
 
 
 

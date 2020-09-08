@@ -1,6 +1,6 @@
 package repl;
-import com.sun.crypto.provider.PBEWithMD5AndDESCipher;
-import day04_Variables.CarInfo;
+
+import day45_Constructor.Constructor;
 
 import java.util.*;
 /*
@@ -19,23 +19,86 @@ Warmup tasks:
 
  */
 
+
 public class it {
     public static void main(String[] args) {
-/*
-        2. create a class called HumanResources
-                declare 5 variables of Employee as static
-        use static block to:
-        1. initialize those static variables
-        2. set all the info of the Employees
 
- */
+  /*     String a = "AAABBCDD";      // A3B2C1D2
+
+        String nonDup = "";
+
+
+        String[] eachChar = a.split("");
+
+
+
+            for(String each : eachChar){
+                if(!nonDup.contains(each)){
+                    nonDup += each;
+                }
+            }
+
+   */
+
+   //     "abc","cab" => true
+    //    "abc","cbb" => false
+
+        String a = "abc";
+        String b = "abb";
+
+        System.out.println(same(a,b));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
     }
-}
+    public static boolean same(String a, String b) {
+
+        char[] ch1 = a.toCharArray();
+
+        char[]  ch2 = b.toCharArray();
+
+        Arrays.sort(ch1);
+
+        Arrays.sort(ch2);
+
+        String a1="", a2="";
+
+        for(char each: ch1)
+
+            a1 +=each;
+
+
+
+        for(char each: ch2)
+
+            a2 +=each;
+
+
+
+        return  a1.equals(a2) ;
+
+    }}
+
 
 
 
