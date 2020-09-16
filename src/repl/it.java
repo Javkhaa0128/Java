@@ -1,6 +1,11 @@
 package repl;
 
+
+
+import Library.Util;
+import com.sun.org.apache.bcel.internal.generic.ARETURN;
 import day45_Constructor.Constructor;
+import day48_Inheritance.DeviceTask.Phone;
 
 import java.util.*;
 /*
@@ -20,84 +25,30 @@ Warmup tasks:
  */
 
 
+
+
+
 public class it {
-    public static void main(String[] args) {
+String size;
+ArrayList<Pillow> pillows = new ArrayList<>();
 
-  /*     String a = "AAABBCDD";      // A3B2C1D2
-
-        String nonDup = "";
-
-
-        String[] eachChar = a.split("");
-
-
-
-            for(String each : eachChar){
-                if(!nonDup.contains(each)){
-                    nonDup += each;
-                }
-            }
-
-   */
-
-   //     "abc","cab" => true
-    //    "abc","cbb" => false
-
-        String a = "abc";
-        String b = "abb";
-
-        System.out.println(same(a,b));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+public it(String size, int numOfp){
+    this.size = size;
+    for(int i =0; i<numOfp; i++)
+    {
+        this.pillows.add(new Pillow());
     }
-    public static boolean same(String a, String b) {
+}
+}
+class Pillow{
+    String material;
 
-        char[] ch1 = a.toCharArray();
+    public static void main(String[] args) {
+        it bed = new it("king",4);
+        System.out.println(bed.pillows.size());
+    }
+}
 
-        char[]  ch2 = b.toCharArray();
-
-        Arrays.sort(ch1);
-
-        Arrays.sort(ch2);
-
-        String a1="", a2="";
-
-        for(char each: ch1)
-
-            a1 +=each;
-
-
-
-        for(char each: ch2)
-
-            a2 +=each;
-
-
-
-        return  a1.equals(a2) ;
-
-    }}
 
 
 
